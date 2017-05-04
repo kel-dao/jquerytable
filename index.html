@@ -4,70 +4,69 @@
   <title>jQuery Table</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="table.css">
-  <script src=""></script>
 </head>
   
 <body>
-  <script src="jquery321min.js"></script>
-  <script src="inputs.js"></script>
   <header>
     <h1>jQUERY TABLE.</h1>
   </header>
   
   <section>
     <table>
+      <thead>
       <tr>
         <th>Control Type</th>
         <th>Control</th>
         <th>Value Entered</th>
       </tr>
+      </thead>
       <tr>
         <td>input type="checkbox"</td>
-        <td><input type="checkbox" id="checkbox-input"></td>
-        <td><p id="checkbox-output" class="p"></p></td>
+        <td><input type="checkbox"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="color"</td>
-        <td><input type="color" id="color-input"></td>
-        <td><p id="color-output" class="p"></p></td>
+        <td><input type="color"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="date"</td>
-        <td><input type="date" id="date-input"></td>
-        <td><p id="date-output" class="p"></p></td>
+        <td><input type="date"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="datetime-local"</td>
         <td>
           <form>
-            <input type="datetime-local" id="datetime-local-input">
+            <input type="datetime-local">
           </form>
         </td>
-        <td><p id="datetime-local-output" class="p"></p></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="email"</td>
         <td>
           <form>
-            <input type="email" id="email-input">
+            <input type="email">
           </form>
         </td>
-        <td><p id="email-output" class="p"></p></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="month"</td>
-        <td><input type="month" id="month-input"></td>
-        <td><p id="month-output" class="p"></p></td>
+        <td><input type="month"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="number"</td>
-        <td><input type="number" id="number-input"></td>
-        <td><p id="number-output" class="p"></p></td>
+        <td><input type="number"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="password"</td>
-        <td><input type="password" id="password-input"></td>
-        <td><p id="password-output" class="p"></p></td>
+        <td><input type="password"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="radio"</td>
@@ -78,34 +77,37 @@
             <input type="radio" name="choice" value="maybe">Maybe
           </form>
         </td>
-        <td><p id="choice-output" class="p"></p></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="search"</td>
-        <td><input type="search" name="search" value="search" class="p" id="search-input"></td>
-        <td><p id="search-output" class="p"></p></td>
+        <td><input type="search"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="range"</td>
-        <td><input type="range" name="range" id="range-input"></td>
-        <td><p id="range-output" class="p"></p></td>
+        <td><input type="range"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="tel"</td>
-        <td><input type="tel" name="tel" value="261-8004" class="p" id="tel-input"></td>
-        <td><p id="tel-output" class="p"></p></td>
+        <td><input type="tel"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
-        <td>input type="name"</td>
-        <td><input type="text" id="name-input"></td>
-        <td><p id="name-output" class="p"></p></td>
+        <td>input type="text"</td>
+        <td><input type="text"></td>
+        <td><div class="answer"></div></td>
       </tr>
       <tr>
         <td>input type="time"</td>
-        <td><input type="time" name="time" value="12:00:00" id="time-input"></td>
-        <td><p class="p" id="time-output"></p></td>
+        <td><input type="time"></td>
+        <td><div class="answer"></div></td>
       </tr>
     </table>
   </section>
- 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+  <script src="inputs.js"></script>
   </body>
+</html>
