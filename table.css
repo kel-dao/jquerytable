@@ -1,0 +1,24 @@
+body {
+  background-color: lightcyan;
+}
+
+header {
+  font-family: 'Monofett', cursive;
+  font-size: 2.4rem;
+}
+
+
+table, th {
+  width: 70%;
+  border: 1px solid black;
+  font-family: 'Unica One', cursive;
+  font-size: 1.4rem;
+  background-color: white;
+}
+
+td {
+  border: 1px solid black;
+  font-family: 'Unica One', cursive;
+  color: white;
+  background-color: black;
+}
